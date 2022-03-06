@@ -1,1 +1,0 @@
-# formation_git_hydrovinci
