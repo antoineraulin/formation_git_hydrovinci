@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formation Git - HydroVinci</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://afeld.github.io/bootstrap-toc/assets/screen.css"
+      media="screen"
+      charset="utf-8"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#toc">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+        </div>
+        <div class="col-sm-9">
+          <h1>Guide d'installation</h1>
+
+          <p>
+            <a href="#"
+              ><img
+                src="https://travis-ci.org/afeld/bootstrap-toc.svg?branch=gh-pages"
+                height="0"
+                alt="Build Status"
+            /></a>
+          </p>
+          <h2></h2>
+          <h2>Git</h2>
+          <h3>Sur Windows</h3>
+          <p>
+            Accèder à la page de téléchargement pour Windows de Git :
+            <a href="https://git-scm.com/download/win"
+              >git-scm.com/download/win</a
+            >
+          </p>
+          <p>Puis cliquer sur <code>Click here to download</code></p>
+          <p>
+            Lorsque le téléchargement est terminé vous devriez avoir un fichier
+            type <code>Git-2.35.1.2-64-bit.exe</code> dans le dossier de
+            Téléchargement de votre ordinateur.
+          </p>
+          <p>Lancer l'éxecutable.</p>
+          <p>Vous devriez obtenir une fenêtre comme celle-ci :</p>
+          <img src="git_windows_1.jpg" alt="Git 1" />
+          
+          <p>Cliquer sur <code>Install</code>, la fenêtre suivante :</p>
+          <img src="git_windows_2.jpg" alt="Git 2" />
+          
+          <p>Laisser coché les options par défaut. Puis cliquer sur <code>next</code></p>
+            <img src="git_windows_3.jpg" alt="Git 3" />
+            <div class="alert alert-info" role="alert">Je recommande de sélectionner <code>Visual Studio Code</code> ici, mais si vous avez l'habitude d'utiliser un autre éditeur de code n'hésitez pas à le choisir à la place</div>
+          
+          <p>Pareil qu'avant, laisser coché l'option par défaut pour les trois prochaines fenêtres :</p>
+          <img src="git_windows_4.jpg" alt="Git 4" />
+          <img src="git_windows_5.jpg" alt="Git 5" />
+          <img src="git_windows_6.jpg" alt="Git 6" />
+          <p>Je recommande de choisir la seconde option ici puisqu'elle offre une meilleure intégration aux outils Windows :</p>
+            <img src="git_windows_7.jpg" alt="Git 7" />
+          <p>Laisser coché l'option par défaut et accèder à la fenêtre d'après :</p>
+            <img src="git_windows_8.jpg" alt="Git 8" />
+            <p>Choisir la seconde option :</p>
+            <img src="git_windows_9.jpg" alt="Git 9" />
+        <p>Laisser coché les choix par défaut pour les quatres prochaines fenêtres :</p>
+        <img src="git_windows_10.jpg" alt="Git 10" />
+        <img src="git_windows_11.jpg" alt="Git 11" />
+        <img src="git_windows_12.jpg" alt="Git 12" />
+        <img src="git_windows_13.jpg" alt="Git 13" />
+        <div class="alert alert-success" role="alert">
+            Si vous avez atteint cette dernière fenêtre c'est que Git est correctement installé.
+          </div>
+          <img src="git_windows_14.jpg" alt="Git 14" />
+            <h3>Sur macOS</h3>
+            <p>
+              Accèder à la page de téléchargement pour macOS de Git :
+              <a href="https://git-scm.com/download/mac"
+                >git-scm.com/download/mac</a
+              >
+            </p>
+            <p>Puis cliquer sur <code>Click here to download</code></p>
+            <div class="alert alert-info" role="alert">
+              N'ayant pas de Mac sous la main, je vous invite à suivre les choix séléctionnés pour Windows lorsque l'installateur de Git pour Mac vous le demandera.
+              </div>
+        <h3>Configuration de Git</h3>
+        <p>Avant d'utiliser Git il est recommandé de définir le nom sous lequel vos modifications seront connues et le mail associé (le même mail que celui qui a servi à la création de votre compte GitHub fera très bien l'affaire).</p>
+        <p>Pour cela, il faut ouvrir un terminal de commandes (<code>Invite de commandes</code> sur Windows 10, <code>Windows Terminal</code> sur Windows 11 et <code>Terminal</code> sur macOS) :</p>
+        <p>Et lancer les commandes suivantes (en prenant soins de changer les valeurs) :</p>
+        <pre><code>git config --global user.name "your_github_username"
+git config --global user.email "your_email@github.com"
+            </code></pre>
+        <img src="cmd.jpg" alt="cmd" />
+          <h2>Visual Studio Code</h2>
+          <p>Qu'elle que soit la plateforme l'installation de <code>Visual Studio Code</code> est relativement simple, il suffit de se rendre sur le <a href="https://code.visualstudio.com/">site de téléchargement officiel</a> et de cliquer sur le bouton de téléchargement :</p>
+            <img src="vscode_download.jpg" alt="Visual Studio Code Bouton de téléchargement" />
+          <h2>GitHub Desktop</h2>
+          <p><code>GitHub Desktop</code> est une interface graphique pour <code>Git</code>, il permet de simplifier grandement l'utilisation de <code>Git</code> sur ordinateur et propose une intégration avancée de GitHub (clonage, création de dépôts, etc.)</p>
+          <p>D'autres interface graphique pour Git existe, nottamment <code>GitKraken</code> ou encore <code>Tower Git</code> (Que je recommande grandement si vous souhaitez utiliser Git à son plein potentiel), mais <code>GitHub Desktop</code> présente tout de même l'avantage d'être très facilement accessible pour les nouveaux utilisateurs de <code>Git</code> et s'intégre très bien si vous utilisez GitHub</p>
+          <p>Vous pouvez le télécharger depuis le site officiel : <a href="https://desktop.github.com/">desktop.github.com</a> : </p>
+            <img src="github_desktop_download.jpg" alt="GitHub Desktop" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
